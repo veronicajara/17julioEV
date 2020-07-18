@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Alumno en Practica</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container1">
+            <img src="./imagenes/logo-duoc.jpg" alt="logo">
+            <p class="text-right">Docente: RODRIGO EDUARDO GALVEZ ROJAS</p>
+        </div>
+
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Centro Prácticas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mensajería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Volver al Menú</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Pills -->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                aria-controls="pills-home" aria-selected="true">Datos Generales</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                aria-controls="pills-profile" aria-selected="false">Datos de la Practica</a>
+        </li>
+        
+    </ul>
+
+    <!-- Contenedor de los Tabs -->
+    <div class="tab-content" id="pills-tabContent">
+
+        <!-- Primer Tab -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+            <!-- primera fila -->
+            <div class="row fila--margen">
+
+                <!-- primera columna -->
+                <div class=" fila__columna--aspecto col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+                    <h1 class="h1--aspecto">Datos del Alumno</h1><br>
+
+                    <h2 class="h2--aspecto">Nombre del Alumno:</h2>
+                    <p>Condorito</p> <br>
+                    <h2 class="h2--aspecto">Carrera </h2>
+                    <p>Lo que el guión diga</p> <br>
+                    <h2 class="h2--aspecto">Correo</h2>
+                    <p>Condor_ito@gmail.com</p><br>
+                    <h2 class="h2--aspecto">Tipo de Pactica</h2>
+                    <p>Laboral</p>
+                </div>
+
+                <!-- segunda columna -->
+                <div class="fila__columna--aspecto  col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+                    <h1 class="h1--aspecto">Datos del Supervisor</h1><br>
+                    <h2 class="h2--aspecto">Nombre del Supervisor</h2>
+                    <p>Pepe Cortisona</p> <br>
+                    <h2 class="h2--aspecto">Cargo </h2>
+                    <p>Saco de Plomo</p> <br>
+                    <h2 class="h2--aspecto">Nombre de la Empresa</h2>
+                    <p>Tome Pin y Haga Pun</p><br>
+                </div>
+
+                <!-- tercera columna -->
+                <div class="fila__columna--aspecto col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+                    <h1 class="h1__columnatres--aspecto">Informacion Importante</h1><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, temporibus distinctio deleniti
+                        veritatis suscipit iste sunt quae voluptates voluptatem dicta magnam nam, provident voluptate
+                        nisi id, possimus facilis assumenda. Corrupti.</p> <br>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Segundo Tab -->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <!-- segunda Fila -->
+            <div class="row fila--margen">
+
+                <!-- cuarta columna -->
+                <div class="fila__columna--aspecto col-12	col-sm-12	col-md-6	col-lg-3	col-xl-3">
+                    <h1 class="h1--aspecto">Datos de la Practica</h1><br>
+
+                    <h2 class="h2--aspecto">Fecha de Inicio</h2>
+                    <p>Ahora</p> <br>
+                    <h2 class="h2--aspecto">Fecha de termino </h2>
+                    <p>El fin de los tiempos</p> <br>
+                </div>
+
+                <!-- quinta columna -->
+                <div class="fila__columna--aspecto col-12	col-sm-12	col-md-6	col-lg-3	col-xl-3">
+                    <h1 class="h1--aspecto">Hitos de la Practica</h1><br>
+
+                    <h2 class="h2--aspecto">Fecha de contacto inicial</h2>
+                    <p>Nunca</p> <br>
+                    <h2 class="h2--aspecto">Fecha de evaluacion del supervisor</h2>
+                    <p>En cualquier Momento</p> <br>
+                    <h2 class="h2--aspecto">Fecha de evaluacion del informe de practica</h2>
+                    <p>Al final</p><br>
+                </div>
+
+                <!-- sexta Columna -->
+                <div class="fila__columna--aspecto col-12	col-sm-12	col-md-6	col-lg-3	col-xl-3">
+
+                    <div class="form-group">
+                        <label class="h1--aspecto" for="email">Observaciones</label>
+                        <textarea class=" form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <!-- septima columna -->
+                <div class="fila__columna--aspecto col-12	col-sm-12	col-md-6	col-lg-3	col-xl-3">
+
+                    <table class="table">
+
+                        <tr>
+                            <td>Practicas asignadas</td>
+                            <td>2</td>
+                        </tr>
+
+                        <tr>
+                            <td>Terminadas</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <td>Reprobadas</td>
+                            <td>0</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    </div>
+
+    <!-- Botones -->
+    <div class="botones--aspecto">
+        <ul >
+            <li>
+                <a href=""><span class="badge badge-pill badge-success">Guardar</span></a>
+            </li>
+            <li>
+                <a href=""><span class="badge badge-pill badge-warning">Terminar Practica</span></a> 
+            </li>
+            <li>
+              <a href=""> <span class="badge badge-pill badge-danger">Danger</span> </a> 
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <img class="footer__imagen--aspecto" src="./imagenes/CNA1.jpg" alt="">
+    </footer>
+
+</body>
+
+</html>
